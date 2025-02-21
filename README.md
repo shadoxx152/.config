@@ -11,14 +11,12 @@ This is my dotfile to configurate some software as followed:
 All Zsh configuration files are located inside the Oh My Zsh directory, including the `.zshrc` file. If you use the following command to clone this repository:
 
 ```bash
-
 git clone https://github.com/shadoxx152/.config.git ~/.config
 ```
 
 You will need to create two symbolic links:
 
 ```bash
-
 ln -s ~/.config/oh-my-zsh ~/.oh-my-zsh
 ln -s ~/.config/oh-my-zsh/.zshrc ~/.zshrc
 ```
@@ -36,5 +34,4 @@ This will ensure that all settings take effect immediately.
 To ensure that Powerlevel10k and other Zsh themes display correctly, you need to install a Nerd Font.
 
 ### wezterm
-
-This is my WezTerm configuration, just a single wezterm.lua file. I keep tweaking it, but honestly, I’ve lost track of what I’ve changed. It works for now, so that’s good enough.my single wezterm configuration.
+Use this one: [wezterm-config](https://github.com/KevinSilvester/wezterm-config). I cloned this repo to read through the config and learn Lua along the way. Big thanks to KevinSilvester for sharing this!
