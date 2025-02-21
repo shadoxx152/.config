@@ -2,7 +2,8 @@
 
 This is my dotfile to configurate some software as followed:  
 
-- zsh (just this for now)
+- zsh 
+- wezterm
 
 ## Detail
 
