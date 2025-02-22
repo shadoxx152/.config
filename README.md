@@ -40,4 +40,5 @@ Use this one: [wezterm-config](https://github.com/KevinSilvester/wezterm-config)
 
 ### Yazi
 Use catppuccin theme
+
 Didn't changed the deafault keybinding.
