@@ -39,9 +39,5 @@ To ensure that Powerlevel10k and other Zsh themes display correctly, you need to
 Use this one: [wezterm-config](https://github.com/KevinSilvester/wezterm-config). I cloned this repo to read through the config and learn Lua along the way. Big thanks to KevinSilvester for sharing this!
 
 ### Yazi
-use catppuccin theme, need to install by following command:
-```bash
-ya pack -a yazi-rs/flavors:catppuccin-frappe
-```
-
+Use catppuccin theme
 Didn't changed the deafault keybinding.
