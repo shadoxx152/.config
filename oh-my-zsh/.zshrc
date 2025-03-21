@@ -39,8 +39,14 @@ else
   export EDITOR='nvim'
 fi
 
+# eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
 # Compilation flags
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lg="lazygit"
+
+# export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
+# export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
