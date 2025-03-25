@@ -1,10 +1,14 @@
-# .config
+# .config 
 
-This is my dotfile to configurate some software as followed:  
+This is my dotFile to configurate some software as followed:  
 
 - zsh 
 - wezterm
-- Yazi
+- yazi
+- neovim
+- fastfetch
+- lazygit
+- 
 
 ## Detail
 
