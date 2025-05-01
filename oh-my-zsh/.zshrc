@@ -1,7 +1,10 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="random"
+# ZSH_THEME="random"
+ZSH_THEME="catppuccin-ohmyzsh/catppuccin"
+CATPPUCCIN_FLAVOR="frappe"
+CATPPUCCIN_SHOW_TIME=true
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -16,6 +19,13 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# 设置 catppuccin 配色风格
+export CATPPUCCIN_FLAVOR="frappe"  # latte, frappe, macchiato, mocha
+
+# 应用 catppuccin zsh-syntax-highlighting 配色
+source ~/.oh-my-zsh/custom/themes/catppuccin-zsh-syntax-highlighting/themes/catppuccin_frappe-zsh-syntax-highlighting.zsh
+
 
 # User configuration
 function y() {
@@ -50,3 +60,13 @@ alias lg="lazygit"
 
 # export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 # export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
+DISABLE_AUTO_UPDATE="true"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
+
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
