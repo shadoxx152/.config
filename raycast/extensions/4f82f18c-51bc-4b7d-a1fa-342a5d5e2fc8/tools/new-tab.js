@@ -58,6 +58,7 @@ ${s}`)}let i=this.tokenResponseParser(await t.json());return Array.isArray(i.sco
     end repeat
     tell application "System Events"
       ${Q6()}
+      delay 0.1
       keystroke "a" using {command down}
       key code 51
       keystroke "v" using {command down}
