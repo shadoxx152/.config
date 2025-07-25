@@ -1,7 +1,9 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="random"
+ZSH_THEME="catppuccin-ohmyzsh/catppuccin"
+CATPPUCCIN_FLAVOR="frappe"
+CATPPUCCIN_SHOW_TIME=true
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -16,6 +18,10 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+export CATPPUCCIN_FLAVOR="frappe"
+
+source ~/.oh-my-zsh/custom/themes/catppuccin-zsh-syntax-highlighting/themes/catppuccin_frappe-zsh-syntax-highlighting.zsh
 
 # User configuration
 function y() {
