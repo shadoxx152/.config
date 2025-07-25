@@ -1,0 +1,193 @@
+2025-02-27 10:55:38 INFO - running timer task `rUxKVzm3KylZ`
+2025-02-27 10:55:38 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-27 10:55:38 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-27 10:55:38 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-27 10:55:38 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-27 10:55:38 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-02-27 10:55:38 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-27 10:55:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1096 rAddr=maomao.match.qqaamao.com.lmxy.cc:443 mode=rule rule=Domain(maomao.match.qqaamao.com.lmxy.cc) proxy=DIRECT
+2025-02-27 10:55:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1146 rAddr=update.pan.baidu.com:80 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+2025-02-27 10:55:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1117 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:55:40 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-27 10:55:40 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-27 10:55:40 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-27 10:55:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1260 rAddr=inputsuggestions.msdxcdn.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:55:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2116 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:55:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2150 rAddr=sdk.talkingdata.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-27 10:55:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2158 rAddr=h5data.talkingdata.net:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-27 10:55:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2157 rAddr=h5data.talkingdata.net:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-27 10:55:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2159 rAddr=h5data.talkingdata.net:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-27 10:55:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2172 rAddr=pbh-files.pbh-btn.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:55:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2187 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2193 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2195 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2197 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2199 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2201 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2203 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2205 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2207 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2210 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2212 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:55:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2186 rAddr=bcr.pbh-btn.ghorg.ghostchu-services.top:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:56:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2219 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2221 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2223 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2225 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2230 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2232 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2235 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2237 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2241 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2243 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2248 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:56:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2254 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:56:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2257 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:56:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2259 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:56:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2263 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:56:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2266 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2268 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2274 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2276 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2280 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2282 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2284 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2286 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2288 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2290 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2292 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:56:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2294 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2299 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2301 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2304 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2306 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2308 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2310 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5913 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5921 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5920 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5908 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5905 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5931 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5933 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6035 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6037 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6039 rAddr=config.edge.skype.com:443 mode=rule rule=DomainSuffix(skype.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6046 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6045 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6053 rAddr=www.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6059 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6070 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6072 rAddr=config.edge.skype.com:443 mode=rule rule=DomainSuffix(skype.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:57:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6060 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6075 rAddr=srtb.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-27 10:57:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6081 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6083 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6087 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6089 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6091 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6093 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6095 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6097 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6099 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6101 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6103 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6105 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6107 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:57:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6113 rAddr=kv501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:57:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6119 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:57:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6120 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:57:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6127 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:57:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6129 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6136 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6138 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6143 rAddr=172.30.0.11:80 mode=rule rule=IPCIDR(172.16.0.0/12) proxy=DIRECT
+2025-02-27 10:58:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6145 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6147 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6149 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6151 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6153 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6155 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6157 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6159 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6165 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6167 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6169 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6171 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6173 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6175 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6177 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6179 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6181 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6183 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6185 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6187 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6189 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:58:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6191 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6193 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 10:59:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6202 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6204 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6206 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6208 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6210 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6212 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6214 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6216 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6218 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6220 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6222 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6224 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6226 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6228 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12371 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12372 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12386 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12378 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12384 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12396 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12398 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12400 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12402 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12404 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12406 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12408 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12410 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12412 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 10:59:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12414 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12417 rAddr=ocsp.entrust.net:80 mode=rule rule=DomainSuffix(entrust.net) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 11:00:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12428 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12430 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12417 rAddr=c.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-27 11:00:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12417 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-27 11:00:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12441 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12443 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12448 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12450 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12452 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12454 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12456 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-27 11:00:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12462 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12464 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12466 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12468 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12470 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12472 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12474 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12476 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12478 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12480 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12482 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12484 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12487 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12489 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12491 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:00:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12493 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12495 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12497 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12499 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12501 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12508 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12510 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12512 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12514 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-27 11:01:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12516 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT

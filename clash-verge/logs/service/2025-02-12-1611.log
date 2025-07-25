@@ -1,0 +1,7 @@
+16:11:22 INF [Config] initial compatible provider name=故障转移
+16:11:22 INF [Config] initial compatible provider name=自动选择
+16:11:22 INF [Config] initial compatible provider name=猫猫云
+16:11:22 INF [API] listening addr=127.0.0.1:9090
+16:11:22 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+16:11:22 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+16:11:22 INF [TCP] connected lAddr=127.0.0.1:2477 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT

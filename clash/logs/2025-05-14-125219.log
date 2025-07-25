@@ -1,0 +1,105 @@
+12:52:21 INF [API] listening addr=127.0.0.1:1685
+12:52:21 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+12:52:21 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+12:52:59 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:2715 rAddr=learnreport.xiaoeknow.com:443 proxy=DIRECT
+12:53:00 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:2714 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:53:01 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:2730 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:53:01 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:2720 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:53:01 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:2719 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:53:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:3077 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 proxy=DIRECT
+12:53:05 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:3076 rAddr=profile.accounts.firefox.com:443 proxy=DIRECT
+12:53:23 WRN [TCP] dial failed error=dial tcp4 31.13.82.33:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3433 rAddr=zh.z-lib.fm:443
+12:53:28 WRN [TCP] dial failed error=dial tcp4 31.13.87.9:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3552 rAddr=zh.z-lib.fm:443
+12:53:33 WRN [TCP] dial failed error=dial tcp4 31.13.87.9:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3641 rAddr=zh.z-lib.fm:443
+12:53:34 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3727 rAddr=www.google.com:443
+12:53:38 WRN [TCP] dial failed error=dial tcp4 31.13.87.9:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3802 rAddr=zh.z-lib.fm:443
+12:53:40 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3809 rAddr=www.google.com:443
+12:53:43 WRN [TCP] dial failed error=dial tcp4 31.13.87.9:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3850 rAddr=zh.z-lib.fm:443
+12:53:45 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3923 rAddr=www.google.com:443
+12:53:46 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4057 rAddr=api.vc.bilibili.com:443 proxy=DIRECT
+12:53:48 WRN [TCP] dial failed error=dial tcp4 31.13.87.9:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4034 rAddr=zh.z-lib.fm:443
+12:53:50 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4049 rAddr=www.google.com:443
+12:53:52 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4137 rAddr=i1.hdslb.com:443 proxy=DIRECT
+12:53:56 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4152 rAddr=www.101weiqi.com:443 proxy=DIRECT
+12:53:58 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4161 rAddr=ocsp.sectigo.com:80 proxy=DIRECT
+12:54:02 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4188 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:54:03 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4211 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:54:03 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4210 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:54:03 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4212 rAddr=data.bilibili.com:443 proxy=DIRECT
+12:54:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4216 rAddr=data.bilibili.com:443 proxy=DIRECT
+12:54:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4218 rAddr=data.bilibili.com:443 proxy=DIRECT
+12:54:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4219 rAddr=data.bilibili.com:443 proxy=DIRECT
+12:54:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4222 rAddr=data.bilibili.com:443 proxy=DIRECT
+12:54:04 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4223 rAddr=www.bilibili.com:443 proxy=DIRECT
+12:54:05 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4186 rAddr=www.google.com:443
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4267 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4263 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4262 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4260 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4261 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:07 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4259 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4266 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4265 rAddr=s1.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4314 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4313 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4315 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4264 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4316 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4317 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4334 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4341 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4335 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4333 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4340 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4336 rAddr=i0.hdslb.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4325 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4347 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4346 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4352 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4350 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4332 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4348 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4351 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4349 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4324 rAddr=api.bilibili.com:443 proxy=DIRECT
+12:54:09 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4342 rAddr=cm.bilibili.com:443 proxy=DIRECT
+12:54:10 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4364 rAddr=app.bilibili.com:443 proxy=DIRECT
+12:54:10 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4371 rAddr=cm.bilibili.com:443 proxy=DIRECT
+12:54:10 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4235 rAddr=www.google.com:443
+12:54:11 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4379 rAddr=api.live.bilibili.com:443 proxy=DIRECT
+12:54:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4382 rAddr=i1.hdslb.com:443 proxy=DIRECT
+12:54:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4470 rAddr=ocsp.globalsign.com:80 proxy=DIRECT
+12:54:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4465 rAddr=i2.hdslb.com:443 proxy=DIRECT
+12:54:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4464 rAddr=i2.hdslb.com:443 proxy=DIRECT
+12:54:12 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4473 rAddr=passport.bilibili.com:443 proxy=DIRECT
+12:54:13 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4467 rAddr=i2.hdslb.com:443 proxy=DIRECT
+12:54:13 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4468 rAddr=i2.hdslb.com:443 proxy=DIRECT
+12:54:15 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4534 rAddr=message.bilibili.com:443 proxy=DIRECT
+12:54:15 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4380 rAddr=www.google.com:443
+12:54:20 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4581 rAddr=www.google.com:443
+12:54:21 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4696 rAddr=upos-sz-mirrorbd.bilivideo.com:443 proxy=DIRECT
+12:54:23 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4765 rAddr=ocsp.globalsign.com:80 proxy=DIRECT
+12:54:25 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4698 rAddr=www.google.com:443
+12:54:27 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:4798 rAddr=chatgpt.com:443 proxy=DIRECT
+12:54:30 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4796 rAddr=www.google.com:443
+12:54:32 WRN [TCP] dial failed error=dial tcp4 199.96.59.95:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4806 rAddr=chatgpt.com:443
+12:54:35 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:4824 rAddr=www.google.com:443
+12:54:37 WRN [TCP] dial failed error=dial tcp4 199.96.59.95:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5028 rAddr=chatgpt.com:443
+12:54:40 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5448 rAddr=www.google.com:443
+12:54:42 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:5586 rAddr=124.221.238.116:8086 proxy=DIRECT
+12:54:42 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:5588 rAddr=124.221.238.116:8086 proxy=DIRECT
+12:54:42 WRN [TCP] dial failed error=dial tcp4 199.96.59.95:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5571 rAddr=chatgpt.com:443
+12:54:44 WRN [TCP] dial failed error=lookup ipv6.msftconnecttest.com: no such host proxy=DIRECT lAddr=127.0.0.1:5698 rAddr=ipv6.msftconnecttest.com:80
+12:54:44 WRN [TCP] dial failed error=lookup ipv6.msftconnecttest.com: no such host proxy=DIRECT lAddr=127.0.0.1:5696 rAddr=ipv6.msftconnecttest.com:80
+12:54:45 WRN [TCP] dial failed error=lookup ipv6.msftconnecttest.com: no such host proxy=DIRECT lAddr=127.0.0.1:1477 rAddr=ipv6.msftconnecttest.com:80
+12:54:45 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:5700 rAddr=www.msftconnecttest.com:80 proxy=DIRECT
+12:54:45 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:5702 rAddr=www.msftconnecttest.com:80 proxy=DIRECT
+12:54:45 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5584 rAddr=www.google.com:443
+12:54:47 WRN [TCP] dial failed error=dial tcp4 199.96.59.95:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5678 rAddr=chatgpt.com:443
+12:54:51 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:1479 rAddr=www.google.com:443
+12:54:52 WRN [TCP] dial failed error=dial tcp4 199.96.59.95:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:1489 rAddr=chatgpt.com:443
+12:55:02 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:1861 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:55:03 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:1866 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:55:03 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:1868 rAddr=detectportal.firefox.com:80 proxy=DIRECT
+12:55:08 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:1873 rAddr=www.google.com:443
+12:55:13 WRN [TCP] dial failed error=dial tcp4 157.240.17.35:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:1884 rAddr=www.google.com:443

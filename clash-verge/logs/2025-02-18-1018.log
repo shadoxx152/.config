@@ -1,0 +1,30 @@
+2025-02-18 10:18:27 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 10:18:27 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 10:18:27 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 10:18:27 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-18 10:18:27 INFO - [clash]: WRN [Inbound] create listener error type=mixed addr=127.0.0.1:7890 network=tcp error=listen tcp 127.0.0.1:7890: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
+2025-02-18 10:18:27 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-18 10:23:16 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 10:46:57 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:00:51 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 11:00:51 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 11:00:51 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 11:02:20 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:04:31 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:11:21 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 11:11:21 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 11:11:21 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 11:13:45 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:17:20 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 11:17:20 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 11:17:20 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 11:18:01 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:20:26 ERROR - failed to connect to the Clash Verge Service
+2025-02-18 11:35:27 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 11:35:27 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 11:35:27 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 11:35:43 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-18 11:35:43 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-18 11:35:43 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-18 11:39:48 INFO - reset proxy to the original proxy
+2025-02-18 11:39:48 INFO - clash core terminated

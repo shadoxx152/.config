@@ -1,0 +1,127 @@
+2025-04-09 10:11:56 INFO - running timer task `rUxKVzm3KylZ`
+2025-04-09 10:11:57 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-09 10:11:57 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-09 10:11:57 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-04-09 10:11:57 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-09 10:11:57 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-04-09 10:11:57 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=tcp
+2025-04-09 10:11:57 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=udp
+2025-04-09 10:11:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1832 rAddr=maomao.match.qqaamao.com.lmxy.cc:443 mode=rule rule=Domain(maomao.match.qqaamao.com.lmxy.cc) proxy=DIRECT
+2025-04-09 10:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1908 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1909 rAddr=geover.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1988 rAddr=update.pan.baidu.com:80 mode=rule rule=DomainSuffix(baidu.com) proxy=DIRECT
+2025-04-09 10:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1977 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2009 rAddr=15.au.download.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:11:59 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-09 10:11:59 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-09 10:11:59 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-04-09 10:11:59 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-09 10:12:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2126 rAddr=kv601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2278 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2467 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2468 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2925 rAddr=sdk.talkingdata.com:80 mode=rule rule=DomainSuffix(talkingdata.com) proxy=REJECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2925 rAddr=sdk.talkingdata.com:80 mode=rule rule=DomainSuffix(talkingdata.com) proxy=REJECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2925 rAddr=sdk.talkingdata.com:80 mode=rule rule=DomainSuffix(talkingdata.com) proxy=REJECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2932 rAddr=gitee.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2935 rAddr=gitee.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2936 rAddr=gitee.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2934 rAddr=gitee.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2933 rAddr=gitee.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3074 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3078 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3077 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3075 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3142 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3148 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3158 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:12:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5284 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5345 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5393 rAddr=devicelink.intel.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8117 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8123 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8127 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8151 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8185 rAddr=gfwsl.geforce.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8187 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8202 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:13:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8515 rAddr=ocsp.entrust.net:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:13:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8515 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:13:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8515 rAddr=oneocsp.microsoft.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:13:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8515 rAddr=c.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:13:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11032 rAddr=static.nvidiagrid.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:16:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2614 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:16:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2808 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:16:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2860 rAddr=www.msftconnecttest.com:80 mode=rule rule=DomainSuffix(msftconnecttest.com) proxy=DIRECT
+2025-04-09 10:17:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3046 rAddr=fd.api.iris.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:17:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3064 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:17:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3060 rAddr=activity.windows.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:17:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3070 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:17:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3084 rAddr=activity.windows.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3515 rAddr=displaycatalog.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3534 rAddr=displaycatalog.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3536 rAddr=slscr.update.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3595 rAddr=slscr.update.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3757 rAddr=get.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3764 rAddr=get.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3766 rAddr=get.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3823 rAddr=ocsp.digicert.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3952 rAddr=pcskin.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3957 rAddr=cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3967 rAddr=otheve.beacon.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3977 rAddr=h5api.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3966 rAddr=oth.str.beacon.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3976 rAddr=h5api.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3989 rAddr=h5api.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3988 rAddr=h5api.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3992 rAddr=ime-store-cdn.gtimg.com:443 mode=rule rule=DomainSuffix(gtimg.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3997 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4005 rAddr=img.shouji.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4009 rAddr=passportcdn.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4015 rAddr=img.shouji.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4017 rAddr=img.shouji.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4020 rAddr=img.shouji.sogou.com:80 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4025 rAddr=img01.sogoucdn.com:443 mode=rule rule=DomainSuffix(sogoucdn.com) proxy=DIRECT
+2025-04-09 10:18:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4020 rAddr=img.shouji.sogou.com:80 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4033 rAddr=img03.sogoucdn.com:443 mode=rule rule=DomainSuffix(sogoucdn.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4038 rAddr=passportcdn.sginput.qq.com:80 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4043 rAddr=passportcdn.sginput.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4045 rAddr=open-skin-express.gtimg.com:443 mode=rule rule=DomainSuffix(gtimg.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4050 rAddr=img.sogoucdn.com:80 mode=rule rule=DomainSuffix(sogoucdn.com) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4055 rAddr=vfiles.gtimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-04-09 10:18:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4060 rAddr=img-minput.sogoucdn.com:443 mode=rule rule=DomainSuffix(sogoucdn.com) proxy=DIRECT
+2025-04-09 10:18:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4068 rAddr=img.shouji.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:18:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5267 rAddr=displaycatalog.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:5559 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:18:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6242 rAddr=www.msftncsi.com:80 mode=rule rule=DomainSuffix(msftncsi.com) proxy=DIRECT
+2025-04-09 10:19:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6599 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6702 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6717 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6713 rAddr=geover.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6723 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6728 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6733 rAddr=kv601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6742 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6747 rAddr=slscr.update.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6761 rAddr=fe3cr.delivery.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6777 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6779 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6781 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6783 rAddr=cp601.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6785 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6786 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6792 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6794 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6798 rAddr=get.sogou.com:443 mode=rule rule=DomainSuffix(sogou.com) proxy=DIRECT
+2025-04-09 10:19:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6830 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6832 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6834 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6840 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6842 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6849 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6854 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6856 rAddr=tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-04-09 10:19:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6899 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6911 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6916 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:19:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6926 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]

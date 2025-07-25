@@ -1,0 +1,7 @@
+14:53:54 INF [Config] initial compatible provider name=故障转移
+14:53:54 INF [Config] initial compatible provider name=自动选择
+14:53:54 INF [Config] initial compatible provider name=猫猫云
+14:53:54 ERR [API] external controller listen failed error=listen tcp 127.0.0.1:9090: bind: An attempt was made to access a socket in a way forbidden by its access permissions. addr=127.0.0.1:9090
+14:53:54 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+14:53:54 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+14:53:55 INF [TCP] connected lAddr=127.0.0.1:11786 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT

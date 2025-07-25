@@ -1,0 +1,12 @@
+2025-04-10 10:19:54 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-10 10:19:54 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-10 10:19:54 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-04-10 10:19:54 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-10 10:19:54 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-04-10 10:19:54 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=tcp
+2025-04-10 10:19:54 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=udp
+2025-04-10 10:19:54 INFO - running timer task `rUxKVzm3KylZ`
+2025-04-10 10:19:56 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-10 10:19:56 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-10 10:19:56 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-10 10:19:56 INFO - [clash]: INF [Config] initial compatible provider name=自动选择

@@ -1,0 +1,41 @@
+# Clash Verge Config
+
+app_singleton_port: null
+app_log_level: null
+language: zh
+theme_mode: system
+theme_blur: false
+traffic_graph: true
+enable_memory_usage: true
+enable_tun_mode: false
+enable_service_mode: false
+enable_auto_launch: true
+enable_silent_start: false
+enable_system_proxy: false
+enable_proxy_guard: true
+system_proxy_bypass: null
+proxy_guard_duration: 30
+theme_setting:
+  primary_color: null
+  secondary_color: null
+  primary_text: null
+  secondary_text: null
+  info_color: null
+  error_color: null
+  warning_color: null
+  success_color: null
+  font_family: null
+  css_injection: null
+web_ui_list: null
+clash_core: clash
+hotkeys: null
+auto_close_connection: true
+default_latency_test: null
+enable_clash_fields: true
+enable_builtin_enhanced: true
+proxy_layout_column: null
+window_size_position:
+- 1920.0
+- 1032.0
+- -8.0
+- -8.0

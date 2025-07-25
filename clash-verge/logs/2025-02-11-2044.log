@@ -1,0 +1,30 @@
+2025-02-11 20:44:37 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-11 20:44:37 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-11 20:44:37 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-11 20:44:37 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-11 20:44:37 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-02-11 20:44:37 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-11 20:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14157 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:44:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14207 rAddr=update.pan.baidu.com:80 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+2025-02-11 20:44:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14218 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:44:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14224 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14226 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-11 20:45:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14235 rAddr=fd.api.iris.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-11 20:45:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14247 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-11 20:45:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14253 rAddr=ocsp.entrust.net:80 mode=rule rule=DomainSuffix(entrust.net) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14242 rAddr=static.edge.microsoftapp.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14253 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14265 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14268 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:45:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14276 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14271 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14279 rAddr=www.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14291 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14298 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14303 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14284 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14290 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:45:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14297 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:46:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14305 rAddr=srtb.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-11 20:46:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14311 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-02-11 20:46:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14317 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT

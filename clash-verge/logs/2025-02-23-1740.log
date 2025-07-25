@@ -1,0 +1,18 @@
+2025-02-23 17:40:39 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-23 17:40:39 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-23 17:40:39 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-23 17:40:39 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-23 17:40:39 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-02-23 17:40:39 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-23 17:40:59 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-23 17:40:59 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-23 17:40:59 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-23 17:40:59 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-23 17:40:59 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-02-23 17:40:59 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-23 17:41:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3860 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-23 17:41:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3862 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-23 17:41:04 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50568->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3846 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-02-23 17:41:04 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50568->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:3817 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-02-23 17:41:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3872 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-02-23 17:41:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3874 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT

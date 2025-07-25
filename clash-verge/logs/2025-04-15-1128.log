@@ -1,0 +1,16 @@
+2025-04-15 11:28:28 INFO - running timer task `rUxKVzm3KylZ`
+2025-04-15 11:28:29 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-15 11:28:29 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-15 11:28:29 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-15 11:28:29 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-04-15 11:28:29 INFO - [clash]: ERR [API] external controller listen failed error=listen tcp 127.0.0.1:9090: bind: An attempt was made to access a socket in a way forbidden by its access permissions. addr=127.0.0.1:9090
+2025-04-15 11:28:29 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-04-15 11:28:29 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-04-15 11:28:35 INFO - error sending request for url (http://127.0.0.1:9090/configs): error trying to connect: tcp connect error: No connection could be made because the target machine actively refused it. (os error 10061)
+2025-04-15 11:28:37 INFO - error sending request for url (http://127.0.0.1:9090/configs): error trying to connect: tcp connect error: No connection could be made because the target machine actively refused it. (os error 10061)
+2025-04-15 11:28:40 INFO - error sending request for url (http://127.0.0.1:9090/configs): error trying to connect: tcp connect error: No connection could be made because the target machine actively refused it. (os error 10061)
+2025-04-15 11:28:42 INFO - error sending request for url (http://127.0.0.1:9090/configs): error trying to connect: tcp connect error: No connection could be made because the target machine actively refused it. (os error 10061)
+2025-04-15 11:28:44 ERROR - error sending request for url (http://127.0.0.1:9090/configs): error trying to connect: tcp connect error: No connection could be made because the target machine actively refused it. (os error 10061)
+2025-04-15 11:47:38 ERROR - failed to connect to the Clash Verge Service
+2025-04-15 12:25:42 ERROR - failed to connect to the Clash Verge Service
+2025-04-15 17:45:25 ERROR - failed to connect to the Clash Verge Service

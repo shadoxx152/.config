@@ -1,0 +1,18 @@
+files:
+  - time: 1739850067769.yml
+    name: 猫猫云
+    url: https://maomao.match.qqaamao.com.lmxy.cc/api/v1/client/subscribe?token=530a315c6ea1b67fb0a9a2e58c534110
+    selected:
+      - name: GLOBAL
+        now: 1.0x 🇭🇰 香港 HK - 1
+      - name: 猫猫云
+        now: 1.0x 🇭🇰 香港 HK - 1
+    interval: 24
+    subInfo:
+      upload: 1330301010
+      download: 42731182098
+      total: 107374182400
+      expire: 1747459314
+    homeWeb: https://maomaoyun.net
+    mode: global
+index: -1

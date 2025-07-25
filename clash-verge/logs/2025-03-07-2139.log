@@ -1,0 +1,959 @@
+2025-03-07 21:39:29 INFO - running timer task `rUxKVzm3KylZ`
+2025-03-07 21:39:30 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-03-07 21:39:30 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-03-07 21:39:30 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-03-07 21:39:30 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-03-07 21:39:30 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-03-07 21:39:30 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-03-07 21:39:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5977 rAddr=update.pan.baidu.com:80 rule=DomainKeyword rulePayload=baidu
+2025-03-07 21:39:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5979 rAddr=update.pan.baidu.com:80 rule=DomainKeyword rulePayload=baidu
+2025-03-07 21:39:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5972 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:36 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5976 rAddr=maomao.match.qqaamao.com.lmxy.cc:443 rule=Domain rulePayload=maomao.match.qqaamao.com.lmxy.cc
+2025-03-07 21:39:36 ERROR - error sending request for url (https://maomao.match.qqaamao.com.lmxy.cc/api/v1/client/subscribe?token=530a315c6ea1b67fb0a9a2e58c534110): error trying to connect: An existing connection was forcibly closed by the remote host. (os error 10054)
+2025-03-07 21:39:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6445 rAddr=inputsuggestions.msdxcdn.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:50067->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6447 rAddr=inputsuggestions.msdxcdn.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:40 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6443 rAddr=www.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:39:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:57838->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:5975 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:57838->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6453 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:57838->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6560 rAddr=inputsuggestions.msdxcdn.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:57838->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6561 rAddr=inputsuggestions.msdxcdn.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6467 rAddr=sdk.talkingdata.com:80 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6473 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6572 rAddr=www.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6469 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6470 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6472 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6471 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:45 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6449 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:46 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6577 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6672 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6675 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6677 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6679 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6681 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6687 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6689 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6691 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6693 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6695 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6697 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6604 rAddr=pbh-files.pbh-btn.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6651 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6649 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6652 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6650 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6648 rAddr=gitee.com:443 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6467 rAddr=sdk.talkingdata.com:80 rule=Match rulePayload=
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6596 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6575 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:51 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6661 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:52 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6684 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:39:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6725 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6727 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6669 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:39:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6671 rAddr=bcr.pbh-btn.ghorg.ghostchu-services.top:443 rule=Match rulePayload=
+2025-03-07 21:39:55 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54126->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6658 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:55 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54126->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6700 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:39:56 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54126->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6713 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:39:57 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54126->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:6715 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:39:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6994 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:39:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:6996 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:00 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6467 rAddr=sdk.talkingdata.com:80 rule=Match rulePayload=
+2025-03-07 21:40:00 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6708 rAddr=pbh-files.pbh-btn.com:443 rule=Match rulePayload=
+2025-03-07 21:40:00 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6711 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:00 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6944 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:01 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6959 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:40:02 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6961 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:7014 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:7016 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:05 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:6954 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:05 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6957 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:05 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:6958 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:07 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:7009 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8787 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8789 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54161->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:7271 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54161->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:7008 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:12 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54161->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8783 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:12 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54161->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:7011 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8812 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8814 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:15 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:8775 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54167->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8779 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54167->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8778 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:17 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54167->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8808 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8894 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8896 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:20 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8795 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:20 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8819 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:20 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8798 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:22 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54177->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8886 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:22 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54177->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8810 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8914 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:8916 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:24 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54177->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8902 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54177->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8871 rAddr=gfwsl.geforce.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:54177->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8877 rAddr=gfwsl.geforce.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:8875 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:8900 rAddr=static.edge.microsoftapp.net:443 rule=Match rulePayload=
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8883 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:25 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8884 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:27 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8912 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:9102 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:9104 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:29 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8919 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:40:30 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:8908 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:30 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:53721->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:8911 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:32 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:53721->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9099 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:9467 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:9469 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:35 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:9092 rAddr=static.edge.microsoftapp.net:443 rule=Match rulePayload=
+2025-03-07 21:40:35 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=猫猫云 lAddr=127.0.0.1:9093 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:63065->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9097 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:63065->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9101 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:37 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:63065->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9150 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10615 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10617 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9114 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:40 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:9109 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:42 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10555 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10633 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10635 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:45 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:9473 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:45 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:9476 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:45 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51605->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:9479 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10655 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10656 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10657 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10658 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10659 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10660 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10661 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10662 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10664 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10665 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10667 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10668 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10669 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10670 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10671 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10672 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10673 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10674 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:40:47 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51605->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10630 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:47 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51605->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10650 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10681 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10683 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10624 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10625 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10632 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:52 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10675 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:52 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10676 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10703 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10705 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10641 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10647 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10648 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10663 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10652 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10654 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:40:55 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10666 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:40:57 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10700 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:57 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51628->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10701 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:40:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10741 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:40:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:10743 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:00 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:10691 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:00 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10690 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10719 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10694 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10696 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10720 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10718 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10716 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:41:01 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:10717 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11122 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11123 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11124 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:02 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10724 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:02 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:51632->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10726 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11229 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11231 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:05 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11105 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:05 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:10714 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:07 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11125 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:07 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11235 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:07 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11127 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11265 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11267 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11111 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11110 rAddr=unpm-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11272 rAddr=172.30.0.11:80 mode=rule rule=IPCIDR(172.16.0.0/12) proxy=DIRECT
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11118 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11238 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11240 rAddr=api.aliyundrive.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11119 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11113 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11236 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11114 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11239 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11237 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11120 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11117 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:11 INFO - [clash]: WRN [TCP] dial failed error=gtm-sg-6l13mslhr03.maomao678.com:20001 connect error: all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49199->223.5.5.5:53: i/o timeout proxy=猫猫云 lAddr=127.0.0.1:11116 rAddr=px.effirst.com:443 rule=Match rulePayload=
+2025-03-07 21:41:12 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49197->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11263 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11284 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11286 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11262 rAddr=userver-upaas.uc.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11283 rAddr=userver-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 21:41:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11296 rAddr=userver-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 21:41:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49209->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11245 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11274 rAddr=px.effirst.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11277 rAddr=px.effirst.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11275 rAddr=px.effirst.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11278 rAddr=px.effirst.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11276 rAddr=api.aliyundrive.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:17 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": all DNS requests failed, first error: read udp4 10.128.9.4:49209->119.29.29.29:53: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11281 rAddr=d.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11321 rAddr=d.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11329 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11330 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11331 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11332 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11333 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11334 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11335 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11336 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11337 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11338 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11339 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11346 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11347 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11348 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11349 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11350 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11351 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11352 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11354 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11355 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11356 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11340 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11357 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11358 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11359 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11360 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11361 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11362 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11363 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11364 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11365 rAddr=log.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11366 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11375 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11374 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11373 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11386 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11384 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11388 rAddr=fourier.taobao.com:443 mode=rule rule=DomainKeyword(taobao) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11390 rAddr=user.aliyundrive.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11391 rAddr=bizapi.alipan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11404 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11415 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11543 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11544 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11546 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11547 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11557 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11566 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11567 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11568 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11570 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11572 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11579 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11586 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11587 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11589 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11590 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11591 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11595 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11601 rAddr=gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11606 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11609 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11540 rAddr=fourier.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11539 rAddr=fourier.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11542 rAddr=fourier.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11537 rAddr=acjs.aliyun.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11619 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11620 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11621 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11622 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11623 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11625 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11631 rAddr=member.aliyundrive.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11653 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11654 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11655 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11656 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11657 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11658 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11659 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11660 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11661 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11662 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11663 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11664 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11665 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11666 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11667 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11668 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11669 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11670 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11671 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11672 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11673 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11674 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11685 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11686 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11687 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11688 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11689 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11690 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11691 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11692 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11693 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11694 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11695 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11696 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11697 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11698 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11699 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11700 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11701 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11702 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11703 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11704 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11705 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11706 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11707 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11708 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11709 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11710 rAddr=s-gm.mmstat.com:443 mode=rule rule=DomainSuffix(mmstat.com) proxy=REJECT
+2025-03-07 21:41:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11785 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11787 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:23 INFO - [clash]: WRN [TCP] dial failed error=dial tcp4 59.82.29.0:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11637 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:25 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11712 rAddr=v20.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:41:26 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": dial tcp4 104.16.132.229:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11305 rAddr=assets.msn.cn:443 rule=DomainSuffix rulePayload=cn
+2025-03-07 21:41:26 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11738 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:41:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12194 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12200 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12202 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12205 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 21:41:28 INFO - [clash]: WRN [TCP] dial failed error=dial tcp4 59.82.29.0:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11804 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:31 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11830 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:41:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12694 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12847 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 21:41:33 INFO - [clash]: WRN [TCP] dial failed error=dial tcp4 59.82.29.0:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:12209 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 21:41:36 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12343 rAddr=watson.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 21:41:38 INFO - [clash]: WRN [TCP] dial failed error=dial tcp4 59.82.29.0:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:12944 rAddr=dev.g.alicdn.com:443 rule=DomainKeyword rulePayload=alicdn
+2025-03-07 23:30:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13185 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13187 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13190 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:30:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13202 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13209 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13219 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13221 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13212 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13232 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13246 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13248 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13224 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13235 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13236 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13267 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13273 rAddr=ocsp.crlocsp.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:30:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13279 rAddr=detect.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13288 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13290 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13251 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13309 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13320 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13329 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13331 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13334 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:30:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13333 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:30:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13344 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13308 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13327 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13318 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13326 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13303 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:30:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13359 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:30:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13361 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13363 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13373 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13375 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13383 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:30:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13398 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13400 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13421 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13423 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13455 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13457 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:30:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13432 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13468 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13477 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:31:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13483 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13485 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13487 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13520 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13522 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13530 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:31:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13509 rAddr=static.edge.microsoftapp.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:11 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:13514 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:31:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13547 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13549 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:16 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:13542 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:31:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13572 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13574 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13564 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13594 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13596 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13586 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13620 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13622 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13606 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13611 rAddr=main.vscode-cdn.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13648 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13650 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13637 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13664 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13666 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13655 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13680 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13682 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13671 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13694 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13696 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13703 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=rule rule=DomainSuffix(microsofttranslator.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:31:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13718 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13720 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13747 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13749 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:31:58 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13733 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:31:58 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13725 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13982 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13984 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13956 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13965 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13951 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13966 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13958 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:03 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13967 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:03 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13968 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14012 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14014 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:11 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14001 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:11 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14011 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14035 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14037 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:16 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14024 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:16 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14025 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14065 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14067 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14048 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:21 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": dial tcp4 103.121.210.210:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14058 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14092 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14094 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14096 rAddr=s2.cldisk.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14102 rAddr=ocsp.crlocsp.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:32:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14075 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:26 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14082 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14115 rAddr=s.search.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14121 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14125 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14127 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14149 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14151 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14139 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14150 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14144 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14153 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14105 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14170 rAddr=xy120x209x212x22xy2409y8730ye0efy10yy36xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:32:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14176 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14182 rAddr=upos-sz-mirror08c.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:32:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14188 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14190 rAddr=cn-hbyc-ct-02-29.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:32:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14196 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14198 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14204 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14211 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14216 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14218 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:33 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14134 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14225 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14231 rAddr=api.live.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14237 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14246 rAddr=bvc.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14252 rAddr=passport.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14165 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14264 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14270 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14276 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14282 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14284 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14289 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14295 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14297 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:38 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14220 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:32:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14259 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14315 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14317 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14303 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:32:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14333 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14335 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14350 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14352 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14366 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:32:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14368 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14383 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14385 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14403 rAddr=api-edge.cognitive.microsofttranslator.com:443 mode=rule rule=DomainSuffix(microsofttranslator.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14409 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14411 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14391 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:33:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14433 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14435 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": dial tcp4 104.16.132.229:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14419 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:33:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14451 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:33:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14457 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:33:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14470 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14472 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14445 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:22 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14464 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:33:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14500 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14502 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14484 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:27 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14494 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:33:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14519 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14521 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14507 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14540 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14542 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14531 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14562 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14564 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14550 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14551 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:33:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14575 rAddr=upos-sz-mirrorbd.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:33:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14581 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:33:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14587 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:33:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14593 rAddr=cn-jsnt-ct-01-11.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:33:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14605 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14607 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14613 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:33:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14611 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:33:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14632 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14634 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14648 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14650 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14668 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:33:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14670 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14684 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14686 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14701 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14703 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14730 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14732 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:18 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14719 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:34:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14750 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14752 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14734 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:23 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14745 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:34:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14788 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14790 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14763 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14757 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14773 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14766 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14772 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14779 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14818 rAddr=cn-jsnt-ct-01-18.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:34:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14828 rAddr=xy221x11x96x39xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:34:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14839 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14841 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14803 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:30 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:14808 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:34:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11097 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11100 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11085 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:35 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11091 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:34:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11115 rAddr=interface.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:34:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11124 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:34:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11230 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:34:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11236 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11238 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11241 rAddr=aisubtitle.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:34:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11107 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11260 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11262 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11249 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:34:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11274 rAddr=i1.hdslb.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:34:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11280 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11282 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11303 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11305 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11318 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:34:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11320 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11333 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11335 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11351 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11353 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11371 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11373 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11388 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11390 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11376 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11410 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:35:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11416 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11418 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11400 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11443 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11445 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11429 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11463 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11465 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11454 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11480 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11482 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11470 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11499 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11501 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11485 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11514 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11516 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11535 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11537 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11552 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:35:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11554 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11570 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11572 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:09 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11565 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:36:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11596 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11598 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:14 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": read tcp4 10.128.9.4:11594->104.16.132.229:443: wsarecv: An existing connection was forcibly closed by the remote host. proxy=DIRECT lAddr=127.0.0.1:11591 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:36:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11618 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11620 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11629 rAddr=upos-sz-estghw.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:36:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11646 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11648 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11624 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11665 rAddr=xy211x97x94x163xy2408y875cy0ydy1yy8xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:36:23 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:11640 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:36:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11679 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11681 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11684 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11658 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:28 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: dial tcp4 8.8.4.4:853: i/o timeout proxy=DIRECT lAddr=127.0.0.1:11671 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:36:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11715 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11717 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11726 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:36:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11720 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:36:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11691 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11692 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11734 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:36:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11749 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11751 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11740 rAddr=main.vscode-cdn.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:36:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11764 rAddr=i2.hdslb.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:36:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11771 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11773 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11784 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11786 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11800 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11802 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11815 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:36:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11817 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11830 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11832 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11849 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11851 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11866 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11868 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11887 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11889 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11905 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11907 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11892 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11924 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11927 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11929 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11914 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11960 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11962 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11936 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11976 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11978 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11980 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11965 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11996 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11998 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11983 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11988 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:37:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12005 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:37:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12012 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12018 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12023 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12025 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12028 rAddr=upos-sz-estgoss.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:37:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12038 rAddr=shark-tracer.netease.com:443 mode=rule rule=DomainSuffix(netease.com) proxy=DIRECT
+2025-03-07 23:37:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12054 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12056 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12060 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:37:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12066 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12068 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:54 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12044 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:37:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12087 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12089 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:37:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11764 rAddr=i2.hdslb.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:37:59 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12079 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:38:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12114 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12116 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12130 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:38:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12140 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12142 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:07 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12123 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:38:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12161 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12163 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:12 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12148 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:38:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12180 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12182 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12198 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12205 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12184 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:38:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12220 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:38:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12229 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12231 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12207 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:38:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12212 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:38:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12252 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12254 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12265 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12267 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12276 rAddr=cn-jsnt-ct-01-30.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:38:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12283 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12285 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12290 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:38:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12292 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:38:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12298 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:38:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12306 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12308 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12325 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12327 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12348 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12350 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:38:57 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12337 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:39:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12388 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12390 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:02 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12354 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:39:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12401 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:39:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12408 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:39:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12419 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12421 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12410 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:39:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12439 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:39:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12445 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:39:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12452 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12454 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12465 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:39:15 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12434 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:39:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12476 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12478 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12486 rAddr=config.edge.skype.com:443 mode=rule rule=DomainSuffix(skype.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:39:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12495 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12497 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12506 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12508 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12561 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12563 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12596 rAddr=xy123x182x89x69xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:39:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12601 rAddr=xy123x182x89x69xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:39:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12614 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12616 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12642 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12644 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12655 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12657 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12661 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12663 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12681 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12683 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12702 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12704 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:39:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12715 rAddr=i0.hdslb.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12734 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12736 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12738 rAddr=upos-sz-mirror08c.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:40:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12759 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12761 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12779 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12781 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12790 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12792 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12804 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12806 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12813 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12844 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12846 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12852 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12853 rAddr=fystat-ans.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12879 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12874 rAddr=p2.ananas.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12882 rAddr=ocsp.crlocsp.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12888 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12890 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12903 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12905 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12908 rAddr=s2.ananas.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:40:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12923 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12925 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12939 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12941 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:50 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12930 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:40:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12964 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12966 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:56 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12955 rAddr=edge.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:40:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12993 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12995 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:40:58 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.cloudflare.com/dns-query": dial tcp4 104.16.132.229:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:12975 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:40:59 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:12980 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13018 rAddr=xy124x236x62x72xy240ey940ye006y10yy111xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:41:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13028 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13030 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:04 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13001 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13058 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13070 rAddr=shark-tracer.netease.com:443 mode=rule rule=DomainSuffix(netease.com) proxy=DIRECT
+2025-03-07 23:41:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13089 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13091 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:10 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://dns.twnic.tw/dns-query": dial tcp4 101.101.101.101:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:13065 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13109 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13115 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13122 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:12 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13082 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13124 rAddr=aisubtitle.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13135 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13137 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:17 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13130 rAddr=mobile.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13178 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13180 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13226 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:41:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13235 rAddr=api.individual.githubcopilot.com:443 mode=rule rule=DomainKeyword(github) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:41:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13241 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13243 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13304 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13306 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13316 rAddr=cn-jsnt-ct-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:41:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13358 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13362 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13374 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:41:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13390 rAddr=interface.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13396 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13398 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13422 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13424 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13426 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13428 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13384 rAddr=main.vscode-cdn.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:41:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13480 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13483 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13489 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13500 rAddr=upos-sz-estghw.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:41:46 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": context deadline exceeded proxy=DIRECT lAddr=127.0.0.1:13472 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:41:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13512 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13514 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13529 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:41:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13533 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13535 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13551 rAddr=xy113x200x108x186xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13564 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:41:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13579 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13581 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:41:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13583 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:41:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13598 rAddr=upos-sz-estgoss.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:41:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13605 rAddr=upos-sz-mirrorali.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13611 rAddr=shark-tracer.netease.com:443 mode=rule rule=DomainSuffix(netease.com) proxy=DIRECT
+2025-03-07 23:42:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13626 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:42:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13628 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:42:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13635 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13637 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13655 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:42:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13657 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13659 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13678 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13680 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13695 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13701 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13703 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13721 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13723 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13726 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13741 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:42:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13743 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:42:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13754 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13756 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13762 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:42:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13768 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13770 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13794 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13796 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13835 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13837 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13852 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:42:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13872 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:42:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13878 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13880 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13947 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13949 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:13991 rAddr=cn-hljheb-ct-01-04.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:42:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14011 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:42:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14013 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14015 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14041 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:42:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14043 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14081 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14083 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14101 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:43:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14104 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:43:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14124 rAddr=upos-sz-estgcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+2025-03-07 23:43:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14141 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14143 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14168 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14170 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14177 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:43:17 INFO - [clash]: WRN [TCP] dial failed error=all DNS requests failed, first error: Post "https://doh.dns.sb/dns-query": dial tcp4 103.121.210.210:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:14163 rAddr=v10.events.data.microsoft.com:443 rule=DomainSuffix rulePayload=microsoft.com
+2025-03-07 23:43:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14194 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14196 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14202 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14183 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:43:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14223 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:43:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14233 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14235 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14238 rAddr=xy117x161x200x76xy.mcdn.bilivideo.cn:4483 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-03-07 23:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14211 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14210 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-03-07 23:43:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14276 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14278 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14325 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14327 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14416 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14418 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14420 rAddr=mooc1.chaoxing.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14422 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14424 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14430 rAddr=aisubtitle.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-03-07 23:43:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14493 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14495 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14534 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14536 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14572 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14574 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14595 rAddr=s.search.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+2025-03-07 23:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14610 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-03-07 23:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:14612 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT

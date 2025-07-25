@@ -1,0 +1,40 @@
+2025-04-09 08:14:59 INFO - running timer task `rUxKVzm3KylZ`
+2025-04-09 08:14:59 INFO - [clash]: INF [Config] initial compatible provider name=负载均衡
+2025-04-09 08:14:59 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-04-09 08:14:59 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-04-09 08:14:59 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-04-09 08:14:59 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-04-09 08:14:59 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=tcp
+2025-04-09 08:14:59 INFO - [clash]: INF inbound create success inbound=mixed addr=:7890 network=udp
+2025-04-09 08:15:11 ERROR - error sending request for url (https://maomao.match.qqaamao.com.lmxy.cc/api/v1/client/subscribe?token=530a315c6ea1b67fb0a9a2e58c534110): error trying to connect: dns error: 不知道这样的主机。 (os error 11001)
+2025-04-09 10:08:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11405 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:08:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11494 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11508 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11598 rAddr=login.live.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:08:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11656 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11658 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11738 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11740 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11742 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:08:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11747 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:08:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11750 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:08:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11752 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11759 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11761 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11776 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11778 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11914 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11916 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11945 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11947 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11949 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11951 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11953 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11955 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11964 rAddr=activity.windows.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]
+2025-04-09 10:09:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11972 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11974 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11976 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11978 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:11980 rAddr=127.0.0.1:8081 mode=rule rule=IPCIDR(127.0.0.0/8) proxy=DIRECT
+2025-04-09 10:09:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:12103 rAddr=activity.windows.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 1]

@@ -1,0 +1,28 @@
+# Profiles Config for Clash Verge
+
+current: rUxKVzm3KylZ
+chain: null
+valid:
+- dns
+- sub-rules
+- unified-delay
+items:
+- uid: rUxKVzm3KylZ
+  type: remote
+  name: Remote File
+  file: rUxKVzm3KylZ.yaml
+  desc: maomaoyun
+  url: https://maomao.match.qqaamao.com.lmxy.cc/api/v1/client/subscribe?token=530a315c6ea1b67fb0a9a2e58c534110
+  selected:
+  - name: 猫猫云
+    now: 1.0x 🇯🇵 日本 JP - 1
+  extra:
+    upload: 290888986
+    download: 14949239488
+    total: 107374182400
+    expire: 1747459314
+  updated: 1745468712
+  option:
+    with_proxy: true
+    self_proxy: false
+    update_interval: 1440

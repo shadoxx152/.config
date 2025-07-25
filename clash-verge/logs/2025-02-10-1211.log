@@ -1,0 +1,924 @@
+2025-02-10 12:11:49 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-10 12:11:49 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-10 12:11:49 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-10 12:11:49 INFO - [clash]: INF [API] listening addr=127.0.0.1:9090
+2025-02-10 12:11:49 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+2025-02-10 12:11:49 INFO - [clash]: INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+2025-02-10 12:11:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1111 rAddr=config.edge.skype.com:443 mode=rule rule=DomainSuffix(skype.com) proxy=猫猫云[剩余流量：60.08 GB]
+2025-02-10 12:11:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1082 rAddr=ocws.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=猫猫云[剩余流量：60.08 GB]
+2025-02-10 12:11:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1104 rAddr=edge.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:11:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1198 rAddr=update.pan.baidu.com:80 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+2025-02-10 12:11:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1236 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:11:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1274 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:11:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1283 rAddr=confluence.ea.com:80 mode=rule rule=Match() proxy=猫猫云[剩余流量：60.08 GB]
+2025-02-10 12:11:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1290 rAddr=desktop-config.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:11:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1291 rAddr=statsigapi.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1304 rAddr=ratt.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1311 rAddr=crash.steampowered.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1334 rAddr=desktop-config.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1336 rAddr=ratt.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1329 rAddr=confluence.ea.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1355 rAddr=desktop-config.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1338 rAddr=service-aggregation-layer.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1350 rAddr=confluence.ea.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1362 rAddr=accounts.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1369 rAddr=accounts.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1375 rAddr=service-aggregation-layer.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1376 rAddr=service-aggregation-layer.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1381 rAddr=statsigapi.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1390 rAddr=eaavatarservice.akamaized.net:443 mode=rule rule=DomainSuffix(akamaized.net) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1385 rAddr=pc.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1394 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1413 rAddr=service-aggregation-layer.juno.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1396 rAddr=discordapp.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1406 rAddr=groups.gameservices.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1397 rAddr=groups.gameservices.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1407 rAddr=assetsconfigcdn.org:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1420 rAddr=pin-river.data.ea.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1427 rAddr=events.statsigapi.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1440 rAddr=www.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1452 rAddr=www.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:12:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1461 rAddr=www.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:12:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1467 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1478 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1484 rAddr=www.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1486 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1473 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1490 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1495 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1505 rAddr=downloads.marketplace.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1500 rAddr=downloads.marketplace.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1511 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1509 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1515 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1516 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1517 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1510 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1521 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1525 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1537 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1535 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1536 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1531 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1543 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1552 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1548 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1550 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1542 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1555 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1557 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1570 rAddr=t3.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1567 rAddr=t1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1562 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1573 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1580 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1582 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1584 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1590 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1600 rAddr=downloads.marketplace.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1586 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1596 rAddr=token.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1592 rAddr=updates.zen-browser.app:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1607 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1606 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1610 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1611 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1614 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1616 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1619 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1625 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1627 rAddr=www.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1621 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1630 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1634 rAddr=cdn3.optimizely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1647 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1639 rAddr=a26669750187.cdn.optimizely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1643 rAddr=resources.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1651 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1653 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1658 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1660 rAddr=sgtm.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1665 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1667 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1633 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1671 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1673 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1675 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1677 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1679 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1681 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1694 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1685 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1684 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1689 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1688 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1686 rAddr=cdn3.optimizely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1696 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1700 rAddr=logx.optimizely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1711 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:51 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1706 rAddr=o.cf-b.ssl.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1713 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:53 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1718 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:12:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1723 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1728 rAddr=downloads.marketplace.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1730 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1732 rAddr=downloads.marketplace.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:12:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1734 rAddr=plugins.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1737 rAddr=data.services.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1741 rAddr=data.services.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1744 rAddr=ocsp.r2m02.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1746 rAddr=ocsp.r2m02.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1748 rAddr=download.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1753 rAddr=download-cdn.jetbrains.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1759 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1761 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1766 rAddr=oauth.account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1771 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1776 rAddr=sb-ssl.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1778 rAddr=resources.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1783 rAddr=ocsp.godaddy.com:80 mode=rule rule=DomainSuffix(godaddy.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1785 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1787 rAddr=resources.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1792 rAddr=ocsp.godaddy.com:80 mode=rule rule=DomainSuffix(godaddy.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1794 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1796 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1798 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1803 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1805 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1806 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1812 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1817 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1819 rAddr=accounts.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1821 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1824 rAddr=accounts.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1823 rAddr=accounts.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1827 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1829 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1832 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1835 rAddr=oauth.account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1838 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1837 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1845 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1851 rAddr=edge.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:13:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1860 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1856 rAddr=windows.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1865 rAddr=www.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1870 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1877 rAddr=srtb.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1871 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1898 rAddr=api.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1886 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1892 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1891 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1893 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1905 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1904 rAddr=ts3.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1900 rAddr=ts3.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1882 rAddr=img-s.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1910 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1909 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1916 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:13:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1921 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1928 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:13:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1926 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:14:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1930 rAddr=account.jetbrains.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:14:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1935 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1940 rAddr=kv801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1954 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1949 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1945 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1950 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1956 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1959 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1951 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1957 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1952 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1955 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1958 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1953 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:14:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1972 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:16:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1980 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:16:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1992 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:16:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1994 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:16:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:1996 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:16:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2003 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:17:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2012 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:18:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2022 rAddr=fd.api.iris.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:19:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2030 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:20:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2040 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:20:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2052 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:20:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2054 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2057 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2059 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2061 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2064 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2068 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2074 rAddr=csp.withgoogle.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2077 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2079 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2081 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2084 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2086 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2087 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2076 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2091 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2093 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2095 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2098 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2101 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2097 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2106 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2107 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2104 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2108 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2110 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2112 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2117 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2120 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2114 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2121 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2116 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2124 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2126 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2132 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2136 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2135 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2140 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2148 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2150 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2155 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2156 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2157 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2158 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2159 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2161 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2162 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:21:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2163 rAddr=blogs.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2188 rAddr=stats.wp.com:443 mode=rule rule=DomainSuffix(wp.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2190 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2178 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2189 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2173 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2183 rAddr=cdn.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2203 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2201 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2205 rAddr=pixel.wp.com:443 mode=rule rule=DomainSuffix(wp.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2207 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2208 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2211 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2218 rAddr=api.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2216 rAddr=munchkin.marketo.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2217 rAddr=p1.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2241 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2235 rAddr=048-szw-045.mktoresp.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2248 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2250 rAddr=privacyportal.onetrust.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2261 rAddr=download.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2256 rAddr=unexploredterritory.tech:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:21:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2273 rAddr=cp801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:21:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2268 rAddr=geover.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:21:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2280 rAddr=au.download.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:21:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2286 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:21:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2292 rAddr=kv801.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:22:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2298 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:22:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2300 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:22:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2306 rAddr=support.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2316 rAddr=analytics-js-cdn.liferay.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2322 rAddr=osbasahpublisher-ac-uswest1.lfr.cloud:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2327 rAddr=access.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2334 rAddr=static.cloudflareinsights.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2340 rAddr=static.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2346 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2353 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2358 rAddr=broadcom.okta.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2365 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:22:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2367 rAddr=login.okta.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2391 rAddr=o101443.ingest.sentry.io:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2401 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2405 rAddr=pixel.wp.com:443 mode=rule rule=DomainSuffix(wp.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2412 rAddr=p1.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2418 rAddr=048-szw-045.mktoresp.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2424 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2430 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2432 rAddr=profile.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2438 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2444 rAddr=www.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2449 rAddr=service.mtcaptcha.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2450 rAddr=service2.mtcaptcha.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:23:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2463 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:25:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2470 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:25:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2525 rAddr=badjs.weixinbridge.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:25:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2535 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2547 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2544 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2546 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2543 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2545 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2553 rAddr=mmbiz.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:25:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2566 rAddr=servicewechat.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:26:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2588 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:26:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2595 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2602 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2608 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2610 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2617 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+2025-02-10 12:26:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2622 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+2025-02-10 12:26:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2612 rAddr=cs.dds.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:26:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2623 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:26:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2632 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+2025-02-10 12:26:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2634 rAddr=support.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2647 rAddr=unpkg.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2640 rAddr=unpkg.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2645 rAddr=us01ccistatic.zoom.us:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2652 rAddr=www.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2657 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2659 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2670 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:26:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2665 rAddr=images.sw.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2677 rAddr=osbasahpublisher-ac-uswest1.lfr.cloud:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2683 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2685 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:26:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2697 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2698 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:26:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2691 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:26:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2701 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:27:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2711 rAddr=access.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:27:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2714 rAddr=broadcom.okta.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:27:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2739 rAddr=o101443.ingest.sentry.io:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2746 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:22 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2757 rAddr=images.sw.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2763 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2775 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2769 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:28:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2777 rAddr=csp.withgoogle.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2781 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2784 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2786 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2788 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2790 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2794 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2795 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2792 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2796 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2798 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2800 rAddr=blogs.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2806 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2808 rAddr=www.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2816 rAddr=pixel.wp.com:443 mode=rule rule=DomainSuffix(wp.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2819 rAddr=p1.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2820 rAddr=api.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2831 rAddr=048-szw-045.mktoresp.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:28:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2839 rAddr=static.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:29:07 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2849 rAddr=firefoxusercontent.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:29:33 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2861 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:29:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2867 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:29:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2877 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:29:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2898 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2909 rAddr=o101443.ingest.sentry.io:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2923 rAddr=pixel.wp.com:443 mode=rule rule=DomainSuffix(wp.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2931 rAddr=p1.parsely.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2938 rAddr=048-szw-045.mktoresp.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2946 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:30:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2947 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:30:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2948 rAddr=encrypted-vtbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2950 rAddr=encrypted-vtbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2952 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:30:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2956 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2969 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2963 rAddr=www.nruan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2979 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2986 rAddr=img12.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2995 rAddr=img11.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:2991 rAddr=img14.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3017 rAddr=himg.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3011 rAddr=q.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3008 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3019 rAddr=q.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3022 rAddr=q.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3009 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3001 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3037 rAddr=q.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3016 rAddr=q.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3006 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3010 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3007 rAddr=thirdqq.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3039 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3046 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3048 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3050 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3052 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3056 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3055 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3054 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3060 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3065 rAddr=img13.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3070 rAddr=img13.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3071 rAddr=img10.360buyimg.com:443 mode=rule rule=DomainSuffix(360buyimg.com) proxy=DIRECT
+2025-02-10 12:31:20 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3080 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3082 rAddr=softwareupdate.vmware.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3088 rAddr=www.123pan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3094 rAddr=at.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3102 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3115 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3118 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3101 rAddr=at.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3108 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3123 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3100 rAddr=at.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3103 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3095 rAddr=at.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3110 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3111 rAddr=g.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3117 rAddr=d.alicdn.com:443 mode=rule rule=DomainKeyword(alicdn) proxy=DIRECT
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3137 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3138 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3141 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3143 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3144 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3147 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3150 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3149 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3109 rAddr=statics.123pan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3157 rAddr=s4.cnzz.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3164 rAddr=login.123pan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3171 rAddr=statics.123957.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3177 rAddr=s4.cnzz.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3170 rAddr=statics.123pan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3188 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3190 rAddr=c.cnzz.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3196 rAddr=z3.cnzz.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3201 rAddr=app.123pan.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3206 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3214 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3221 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3216 rAddr=fourier.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3226 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3225 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3238 rAddr=ynuf.aliapp.org:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3239 rAddr=cf.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3248 rAddr=cf.aliyun.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3233 rAddr=6tf3bd.tdum.alibaba.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3224 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3254 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3263 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3260 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3265 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:48 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3267 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3269 rAddr=sb-ssl.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:31:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3262 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3272 rAddr=umini.shujupie.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:31:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3274 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+2025-02-10 12:32:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3277 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3285 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3279 rAddr=checkappexec.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3297 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3304 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3310 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3315 rAddr=ts2.cn.mm.bing.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3311 rAddr=img-s.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3318 rAddr=img-s.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:37 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3324 rAddr=www.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3330 rAddr=ecn.dev.ditu.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3292 rAddr=static.edge.microsoftapp.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3303 rAddr=static.edge.microsoftapp.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3334 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3341 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3336 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3343 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3346 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3355 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:32:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3353 rAddr=img-s.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:32:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3359 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3365 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3357 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3367 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3369 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:32:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3371 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3373 rAddr=watson.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3379 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3381 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:33:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3391 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:33:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3397 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:33:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3401 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3407 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:42 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3409 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3411 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3413 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:33:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3415 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:34:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3422 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3438 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3444 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3448 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3455 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3461 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3463 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3467 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:34:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3465 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3469 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3475 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3479 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:01 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3477 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3481 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3483 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3492 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3496 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3494 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3499 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3501 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:17 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3508 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:35:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3514 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:35:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3516 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3524 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3522 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3528 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3526 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3530 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3532 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3534 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3536 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3538 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3539 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:32 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3542 rAddr=assets.activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3544 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3552 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3549 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3554 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3556 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3559 rAddr=softwareupdate.broadcom.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3569 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3577 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3575 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3579 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3581 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3585 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3583 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3587 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3589 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:35:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3591 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3594 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3601 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3603 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3615 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:40 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3620 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3629 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3630 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3628 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3634 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3636 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3651 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3643 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3644 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3653 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3657 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3658 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3663 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3669 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3655 rAddr=t2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3672 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3678 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3684 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3690 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3692 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3698 rAddr=updates.zen-browser.app:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3704 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3708 rAddr=token.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3715 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3717 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3720 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:37:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3719 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3723 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3725 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3727 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3728 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3730 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3737 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3739 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:02 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3741 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3743 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3749 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3755 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3751 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3752 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3758 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3757 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3761 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3763 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3765 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3772 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3771 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3775 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3779 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3777 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3785 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3784 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3799 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3790 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3795 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3805 rAddr=o.cf-b.ssl.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3813 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3814 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:27 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3817 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:38:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3834 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3836 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3838 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 7]
+2025-02-10 12:38:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3841 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:39 INFO - [clash]: INF [Config] initial compatible provider name=故障转移
+2025-02-10 12:38:39 INFO - [clash]: INF [Config] initial compatible provider name=自动选择
+2025-02-10 12:38:39 INFO - [clash]: INF [Config] initial compatible provider name=猫猫云
+2025-02-10 12:38:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3847 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:3992 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4008 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:46 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4010 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:50 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4012 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:38:56 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4015 rAddr=updates.zen-browser.app:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4022 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4032 rAddr=static.edge.microsoftapp.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:29 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4037 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4053 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4044 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4050 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4049 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4052 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:39:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4051 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4064 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4063 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4062 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4072 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:03 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4073 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4076 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4083 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4086 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4084 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4089 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4090 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4093 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4095 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4097 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4103 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4113 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+2025-02-10 12:40:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4119 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4125 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4126 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4127 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4135 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4137 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4141 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4142 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4140 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4150 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4152 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4154 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:40:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4156 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4164 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4167 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4163 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4169 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4170 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4173 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:05 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4175 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4177 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4178 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4181 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4183 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4185 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4187 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4189 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4192 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4191 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4194 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4205 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4207 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4209 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4211 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4212 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4214 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4217 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:31 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4219 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4221 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4224 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4226 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4233 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4232 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4234 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4244 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:41:57 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4242 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:00 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4246 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4248 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4251 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4249 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4256 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4254 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4259 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:25 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4261 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4264 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4263 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4275 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4279 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4277 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:35 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4281 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4288 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4287 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4289 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4293 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4294 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4297 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:45 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4299 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:42:58 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4301 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4311 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4307 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4308 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4321 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4322 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4325 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4327 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4326 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4331 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:14 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4333 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4335 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4339 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4337 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4342 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:21 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4341 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4345 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4347 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4349 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4351 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:26 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4353 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:28 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4355 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4363 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4362 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4370 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4372 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4374 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:38 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4376 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+2025-02-10 12:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4383 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4382 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4384 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4392 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4394 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4397 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4398 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4396 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4406 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:47 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4408 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4413 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4411 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4419 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4423 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:52 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4421 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4426 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4427 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4430 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4434 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:43:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4432 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4448 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4446 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4449 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4452 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4454 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:08 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4456 rAddr=support.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+2025-02-10 12:44:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4462 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4468 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4470 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4473 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:18 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4472 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4476 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4482 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4484 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4488 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:23 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4486 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4492 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4494 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4496 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4498 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4500 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4503 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4507 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4505 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4511 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:39 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4509 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4551 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4539 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4542 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4553 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:49 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4555 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4569 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4571 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4573 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4575 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:44:55 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4577 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4609 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4607 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4611 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4613 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:04 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4615 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4620 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4622 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4624 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4626 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:09 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4628 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4636 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4638 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4630 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4642 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:19 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4640 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:25 ERROR - failed to connect to the Clash Verge Service
+2025-02-10 12:45:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4653 rAddr=cn.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:45:36 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4659 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4682 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4679 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4680 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4693 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4681 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4690 rAddr=s2.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4697 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4710 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4704 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4709 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4703 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4711 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4724 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4725 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4728 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4674 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4722 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4746 rAddr=updates.zen-browser.app:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:10 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4764 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4769 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4717 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4774 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4772 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4736 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4767 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4768 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4747 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4737 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4759 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4778 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4749 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4754 rAddr=token.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4790 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4792 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4794 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4801 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4803 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4805 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4807 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4813 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4811 rAddr=csp.withgoogle.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4820 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4822 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4824 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:11 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4832 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4796 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4819 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4836 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4838 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4840 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4827 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4843 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4851 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4845 rAddr=config.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4850 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4862 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:12 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4865 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4864 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4870 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4871 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4868 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4874 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4876 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4878 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4854 rAddr=o.cf-b.ssl.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4881 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:15 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4883 rAddr=ai.immersivetranslate.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+2025-02-10 12:46:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4891 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4889 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:16 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4893 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4908 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4909 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4907 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4913 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:24 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4915 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4922 rAddr=ocws.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:30 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4921 rAddr=ocws.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4929 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4937 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4935 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4939 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:34 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4941 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:41 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4943 rAddr=geekuninstaller.com:443 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:43 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4950 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:44 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4949 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4953 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4959 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4961 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4963 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:54 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4965 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4967 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4969 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4971 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4974 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:46:59 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4973 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:47:06 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4977 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
+2025-02-10 12:47:13 INFO - [clash]: INF [TCP] connected lAddr=127.0.0.1:4983 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=猫猫云[1.0x 🇭🇰 香港 HK - 10]
