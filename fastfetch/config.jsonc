@@ -20,7 +20,7 @@
     "break",
     {
       "type": "kernel",
-      "key": "    MacOS   ",
+      "key": "  OpenSUSE  ",
       "keyColor": "magenta",
     },
     {
@@ -48,13 +48,13 @@
       "type": "gpu",
       "key": "󰍛  GPU      ",
       "keyColor": "cyan",
-//      "text": "lspci | grep -i vga | awk -F': | \\\\[|\\\\]' '{print $2 \" [\" $3 \"]\"}'"
+      "text": "lspci | grep -i vga | awk -F': | \\\\[|\\\\]' '{print $2 \" [\" $3 \"]\"}'"
     },
-//    {
-//      "type": "disk",
-//      "key": "󰉉  Disk     ",
-//      "keyColor": "cyan",
-//    },
+    {
+      "type": "disk",
+      "key": "󰉉  Disk     ",
+      "keyColor": "cyan",
+    },
     {
       "type": "custom",
       "format": ">-----------<+>------------------------------------------<",
