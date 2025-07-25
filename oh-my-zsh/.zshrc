@@ -81,3 +81,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+alias gcc=gcc-15
+alias g++=g++-15
+
+# 使用 LLVM clang 而不是 Apple Clang
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+

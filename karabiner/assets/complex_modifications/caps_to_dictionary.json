@@ -1,0 +1,26 @@
+{
+  "title": "Caps Lock → Dictionary Lookup (⌃⌘D)",
+  "rules": [
+    {
+      "description": "Press Caps Lock to trigger Control+Command+D for dictionary lookup",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "d",
+              "modifiers": [
+                "left_command",
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
