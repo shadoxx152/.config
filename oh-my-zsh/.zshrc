@@ -59,18 +59,38 @@ alias lg="lazygit"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/shadoxx/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
+#__conda_setup="$('/home/shadoxx/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/shadoxx/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/shadoxx/anaconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/shadoxx/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda initialize <<<
+
+# >>> conda initialize >>>
+if [ -d "$HOME/anaconda3" ]; then
+    __conda_setup="$("$HOME/anaconda3/bin/conda" 'shell.zsh' 'hook' 2> /dev/null)"
+elif [ -d "$HOME/miniconda3" ]; then
+    __conda_setup="$("$HOME/miniconda3/bin/conda" 'shell.zsh' 'hook' 2> /dev/null)"
+fi
+
+if [ $? -eq 0 ] && [ -n "$__conda_setup" ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/shadoxx/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/shadoxx/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/shadoxx/miniconda3/bin:$PATH"
+    if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "$HOME/anaconda3/etc/profile.d/conda.sh"
+    elif [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "$HOME/miniconda3/etc/profile.d/conda.sh"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
