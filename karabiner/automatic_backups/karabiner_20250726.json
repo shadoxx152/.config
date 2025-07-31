@@ -4,34 +4,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Disable Cmd+H, use Cmd+\\ to hide window",
-                        "manipulators": [
-                            {
-                                "description": "Disable Cmd+H",
-                                "from": {
-                                    "key_code": "h",
-                                    "modifiers": { "mandatory": ["command"] }
-                                },
-                                "to": [],
-                                "type": "basic"
-                            },
-                            {
-                                "description": "Remap Cmd+\\ to Cmd+H",
-                                "from": {
-                                    "key_code": "backslash",
-                                    "modifiers": { "mandatory": ["command"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "h",
-                                        "modifiers": ["command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Press Caps Lock to trigger Control+Command+D for dictionary lookup",
                         "manipulators": [
                             {
